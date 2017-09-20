@@ -3,7 +3,7 @@ version: 0.1
 phases:
   build:
     commands:
-      - yarn
+      - yarn install
       - yarn run webpack
 artifacts:
   files:
